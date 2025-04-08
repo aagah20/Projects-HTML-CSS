@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&family=Young+Serif&display=swap');
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+     font-size: 16px;
+     font-family: "Underdog", system-ui;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     /* margin: 1.5em 0 0 0; */
+}
+.logoHeading{
+     font-size: 1.9rem;
+     margin: 0;
+     padding-left: 1em;
+     letter-spacing: 7px;
+     width: 30%;
+     color: brown;
+}
+.nav-Links{
+     display: flex;
+     justify-content: space-around;
+     width: 40%;
+}
+.nav-Links a{
+     text-decoration: none;
+     color: black;
+     font-size: 1.8rem;
+     font-weight: bold;
+     color: brown;
+}
+
+/* THIS IS MAIN PART WITH IMG AND HEADING */
+
+.main-page{
+     background-image: url("/img/background.jpg");
+     background-size: cover;
+     height: 90vh;
+     width: 100vw;
+     opacity: 0.9;
+     padding: 5em 0;
+}
+.main-page h1{
+     width: 50%;
+     font-size: 3rem;
+     color: brown;
+     text-align: center;
+     margin: 0 auto;
+     position: absolute;
+     top: 50%;
+     left: 25%;
+     background-color: rgba(255, 255, 255, 0.4);
+     font-family: "Underdog", system-ui;
+}
+
+
+/* ABOUT US SECTION WITH SECTION DIVIDED INTO TWO PART  */
+
+.about-us{
+     display: flex;
+     flex-direction: column;
+     margin-top: 5em;
+     background-color:antiquewhite;
+     padding: 1em;
+}
+.about-us .info{
+     width: 52%;
+     margin: 0 auto;
+
+}
+.info h2{
+     margin: 0.5em 0;
+     font-size: 1.9rem;
+     color: brown;
+     text-align: center;
+     text-decoration: underline;
+     font-family: "Underdog", system-ui;
+}
+.info p{
+     font-size: 1.8rem;
+     margin: 1.5em 0;
+     font-family: "PT Serif", serif;
+}
+.info button{
+     padding: 0.8em;
+     font-size: 1.3rem;
+     font-weight: bold;
+     background-color: rgb(77, 64, 64);
+     border: none;
+     color: whitesmoke;
+     border-radius: 10px;
+     display: block;
+     margin: 0 auto;
+}
+
+
+/* THIS IS FOR THE HEADING AND IMAGE GALLERY  */
+
+.gallery h2{
+     margin: 4em 0 0 ;
+     font-size: 1.9rem;
+     color: brown;
+     text-align: center;
+     text-decoration: underline;
+     font-family: "Underdog", system-ui;
+}
+.img-gallery{
+     margin-top: 3em;
+     display: flex;
+     justify-content: space-around;
+}
+.img3{
+     width: 40%;
+}
+.small{
+     width: 53%;
+}
+.small img{
+     width: 47%;
+     padding: 0 0.5em 0.5em 0.5em;
+}
+
+.small img:hover{
+     opacity: 0.8;
+     width: 51%;
+}
+
+
+/* THIS IS FOOTER PART  */
+footer{
+     margin-top: 5em;
+     background-color: antiquewhite;
+     padding-top: 1em;
+}
+
+.links{
+     display: flex;
+     justify-content: space-around;
+    align-items: center;
+}
+.first .logo{
+     width: 50%;
+}
+.social-links i{
+     padding: 0 0.6em;
+     font-size: 1.3rem;
+}
+.contact{
+     margin-top: 2.5em;
+    /* padding: 0 2em 1em; */
+     display: flex;
+     justify-content: space-around;  
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
