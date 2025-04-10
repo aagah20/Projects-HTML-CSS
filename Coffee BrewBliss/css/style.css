@@ -64,7 +64,7 @@ nav{
 /* THIS IS MAIN PART WITH IMG AND HEADING */
 
 .main-page{
-     background-image: url("img/background.jpg");
+     background-image: url("../img/background.jpg");
      background-size: cover;
      height: 90vh;
      width: 100vw;
