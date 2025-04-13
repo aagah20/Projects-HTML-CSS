@@ -40,6 +40,14 @@ nav{
      align-items: center;
      /* margin: 1.5em 0 0 0; */
 }
+.logo{
+     display: flex;
+     justify-content: start;
+     align-items: center;
+}
+.logo-img{
+     width: 10%;
+}
 .logoHeading{
      font-size: 1.9rem;
      margin: 0;
@@ -94,6 +102,11 @@ nav{
      background-color:antiquewhite;
      padding: 1em;
 }
+.info .logo-img{
+     margin: 0 auto;
+     display: block;
+     background-color: transparent;
+}
 .about-us .info{
      width: 52%;
      margin: 0 auto;
@@ -118,10 +131,13 @@ nav{
      font-weight: bold;
      background-color: rgb(77, 64, 64);
      border: none;
-     color: whitesmoke;
      border-radius: 10px;
      display: block;
      margin: 0 auto;
+}
+.info button a{
+     text-decoration: none;
+     color: whitesmoke;
 }
 
 
