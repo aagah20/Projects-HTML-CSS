@@ -1,1 +1,123 @@
+.main-page button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    padding: 1em;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: rgb(60, 10, 10);
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 4em auto 0;
+}
 
+.main-page button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main-page button:hover {
+    background-color: rgb(168, 72, 72);
+}
+
+
+/* this is the whole menu including images */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+
+/* this is for left side images */
+
+.menu .leftImg {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    align-items: center;
+}
+
+.menu img {
+    width: 95%;
+}
+
+
+/* this is main written menu  */
+
+.writtenMenu {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: space-between;
+}
+
+
+/* for coffee  */
+
+.menu .coffee {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+#coffee td {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+
+/* for snacks  */
+
+.menu .snacks {
+    display: flex;
+    flex-direction: column;
+}
+
+.snacks h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+#snacks td {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+.menu .beverages {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* for beverages  */
+
+.beverages h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+#beverages td {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+
+/* this is for eight side images */
+
+.menu .rightImg {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+
+}
