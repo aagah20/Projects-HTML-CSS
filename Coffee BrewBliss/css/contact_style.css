@@ -1,0 +1,52 @@
+.form_cover {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    justify-content: space-around;
+}
+
+.contact-form {
+    /* border: 1px solid coral; */
+    background-color: white;
+    border-radius: 10px;
+    width: 38%;
+    /* margin: 0 auto; */
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-here{
+    background-color: white;
+    border-radius: 10px;
+    width: 38%;
+    padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ h2{
+    font-size: 2.5rem;
+    /* color: white; */
+}
+
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input,
+textarea {
+    margin: 1em;
+    padding: 0.5em;
+    width: 80%;
+}
